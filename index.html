@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width">
+        <meta name = "description" content = "Test your knowledge on nutrition and health">
+
+        <title>Nutrition and Health Quiz App</title>
+
+        <link href = "index.css" rel = "stylesheet" type = "text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <a href = "question.html">Question</a>
+            <a href = "correctFeedback.html">Correct Answer</a>
+            <a href = "incorrectFeedback.html">Incorrect Answer</a>
+            <a href = "finalResult.html">Final Feedback</a>
+        </nav>
+
+        <header role = "banner">
+            <ul>
+                <li>Question: <span class = "questionNumber">0</span>/10</li>
+                <li>Score: <span class = "score">0</span></li>
+            </ul>
+        </header>
+
+        <main role = "main">
+            <div class = "quizStart">
+                <h1>Ready to test your knowledge of nutrition and health?</h1>
+                
+                <button type = "button" class = "startButton"><a href = "question.html">I am Ready!</a></button>
+            </div>
+        </main>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src = "data.js"></script>
+        <script src = "index.js"></script>
+    </body>
+</html>
