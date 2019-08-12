@@ -1,46 +1,124 @@
+
 * {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-  }  
-
-body {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bolder;
-}
-
-header {
-    color: black;
-}
-
-header ul li {
-    list-style: none;
-}
-
-
-main {
-    display: block;
-    text-align: center;
-    width: 50%;
-    margin-top: 100px;
+    font-family: 'Crimson Text', serif;
+  }
+  
+  body {
+    background: url("https://cdn.pixabay.com/photo/2018/05/03/20/41/food-3372322_1280.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  #lightbox {
+    width: 70%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 25px;
     margin-left: auto;
     margin-right: auto;
-}
-
-h1 {
-    font-size: 30px;
-}
-
-button {
-    color: darkgrey;
+    margin-top: 100px;
+  }
+  
+  header, .quiz, .correct, .incorrect, .results {
+    display: none;
+  }
+  
+  header ul{
+    list-style: none;
+    display: block;
+    text-align:right;
+    margin: 5px 15px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  h1 {
+    margin: 40px 10px;
+  }
+  
+  h1, h2, h3, p {
+    text-align: center;
+  }
+  
+  .startButton, .submitButton, .nextButton, .restartButton {
+    width: 90px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
     font-size: 16px;
-}
-
-button:hover {
-    background-color:blue;;
-}
-
-a {
-    text-decoration: none;
-}
-
-
+  }
+  
+  .nextButton {
+    margin-top: 15px;
+  }
+  
+  .answers button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+  
+  }
+  
+  .selected {
+    background:#ED6F21;
+  
+  }
+  
+  button:hover:focus:active {
+    font-weight:800;
+    font-size: 18px;
+  }
+  
+  img {
+    height: auto;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  img.show{
+    display: inline-block;
+  }
+  
+  .results img {
+    display: none;
+  }
+  
+  @media screen and (max-width: 450px) {
+    header ul {
+      font-size: 16px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    }
+    #lightbox {
+      margin-top:20px;
+    }
+  } 
+  
+  @media screen and (max-width: 800px) {
+    header ul {
+      font-size: 16px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    }
+    #lightbox {
+      margin-top:20px;
+    }
+  } 
+  
 
