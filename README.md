@@ -1,4 +1,6 @@
-# This is the first application that I was asked to built that wraps everything that I've learned so far
+# Nutrition and its Impact on Health
+
+This is the first application that I was asked to built that wraps everything that I've learned so far
 in the Bloc's Web Development track bootcamp. 
 
 This application was built using HTML, CSS, JS, and jQuery. 
